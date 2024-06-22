@@ -27,7 +27,7 @@ function InitializeT7Overcharged(options)
 
       -- Check if the dll was properly loaded
       if not dllInit then
-        Engine.ComError( Enum.errorCode.ERROR_UI, "Unable to initialize T7Overcharged install the latest VCRedist" )
+        Engine.ComError( Enum.errorCode.ERROR_UI, "Unable to initialize T7Overcharged, please check your mapname and filespath are correct in hud_zm_factory.lua and, if not install the latest VCRedist." )
         return
       end
 
